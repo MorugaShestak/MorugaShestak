@@ -15,9 +15,6 @@ function App() {
     <div className="App">
         <Router>
             <Switch>
-                <Route path="/links">
-
-                </Route>
                 <Route path="/repos">
                     <Repos/>
                 </Route>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./index.css";
-import logo from "../../assets/logo.jpg"
+import logo from "../../assets/MorugaLogo.png"
 import blog from "../../assets/blog.jpg"
 import freelance from "../../assets/freelance.png"
 import links from "../../assets/links.png"
@@ -19,7 +19,7 @@ const Index = () => {
                         <Link to="/repos"><img style={{padding: 20}} src={repos} title="My repositories" alt="repos"/></Link>
                     </div>
                 </div>
-                <div className="logo"> <a href="https://github.com/MorugaShestak"> <img src={logo} title={"My Github"} alt="Moruga" height={300} width={300} /> </a> </div>
+                <div className="logo"> <a href="https://github.com/MorugaShestak"> <img style={{borderRadius: "50%"}} src={logo} title={"My Github"} alt="Moruga" height={300} width={300} /> </a> </div>
             </div>
         </div>
     );
