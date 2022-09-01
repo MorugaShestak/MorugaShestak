@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 
 ## Blitzkrieg
 
-> Hi, I'm Alexander, 17 y/o `Fullstack Dev` from ![Russia](readme/flag.png "Russia")
+> Hi, I'm Alexander, 19 y/o `Fullstack Dev` from Russia
 
 
 <!-- ---- -->
@@ -42,26 +42,12 @@ Here are some ideas to get you started:
 
 🎛️ ![Cent OS](https://img.shields.io/badge/cent%20os-002260?style=for-the-badge&logo=centos&logoColor=F0F0F0) ![Elementary OS](https://img.shields.io/badge/-elementary%20OS-black?style=for-the-badge&logo=elementary&logoColor=white) ![Fedora](https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white) ![Manjaro](https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=Manjaro&logoColor=white) ![openSUSE](https://img.shields.io/badge/openSUSE-%2364B345?style=for-the-badge&logo=openSUSE&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
---------
+`not everything included`
 
-## 🧑‍🎓 Learnin'
-
-👨‍💻  `F#` 
-
-⚙️ `Yii2` ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-
-ℹ️  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
 ----------
 
 ## ☑️ Release 
 
-<a href="https://github.com/Morugar/say.u"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Morugar/say.u.png" width="460px"></a>
-
-<a href="https://github.com/Morugar/Laravel-Cloud-Storage-API"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Morugar/Laravel-Cloud-Storage-API.png" width="460px"></a>
-
-<a href="https://github.com/Morugar/TG-Bot-API-Example"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/Morugar/TG-Bot-API-Example.png" width="460px"></a>
-
-`Created using` [ghlinkcard](https://ghlinkcard.com)
 
 ------------
