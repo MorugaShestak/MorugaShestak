@@ -7,11 +7,33 @@
     <link rel="icon" href="https://avatars.githubusercontent.com/u/110448322?v=4">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/animations.js"></script>
     <title>Moruga</title>
 </head>
-<body>
-    <button class="btn btn-success" aria-placeholder="Aloha" value="Aloha">Aloha</button>
+<body onload="chillin()">
+    <div class="header">
+        <div class="header-wrapper">
+            <div class="logo">
+                <img class="logo-img" src="assets/media/logo.png" alt="Moruga" width="72" height="72">
+            </div>
+            <div class="menu">
+                <nav class="nav-menu">
+                    <span class="menu-element" id="menu-element">about</span>
+                    <span class="menu-element" id="menu-element">stack</span>
+                    <span class="menu-element" id="menu-element">repos</span>
+                    <span class="menu-element" id="menu-element">exp</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="content-wrapper">
+            <div id="banner" class="content-banner">chillin' right here</div>
+        </div>
+    </div>
 </body>
 </html>
