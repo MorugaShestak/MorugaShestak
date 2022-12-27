@@ -1,50 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/110448322?v=4">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/jquery-3.6.3.min.js"></script>
-    <script src="assets/js/animations.js"></script>
-    <title>Moruga</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content=""">
+  <meta name="author" content="Moruga">
+  <title>Moruga - AIO Dev</title>
+  <link rel="shortcut icon" href="./assets/img/MorugaLogo.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body class="body" onload="chillin()">
-    <div class="head"></div>
-    <div class="container">
-        <div class="header row">
-            <div class="col-sm"><img width="128" height="128" src="assets/media/logo.png" alt="logo" class="logo"></div>
-            <div class="container col-sm">
-                <div class="nav-menu row">
-                    <span class="col nickname">Moruga</span>
-                </div>
+
+<body class="onepage" data-bs-spy="scroll" data-bs-target=".navbar-collapse .navbar-nav">
+  <div class="content-wrapper">
+    <section id="home">
+      <div class="container vh-100 d-flex flex-column align-items-center justify-content-center" data-cues="zoomIn" data-group="hero">
+        <h2 class="fs-16 ls-lg text-uppercase mb-5">
+          <a class="github icon" href="https://github.com/MorugaShestak">
+            <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="icon-size">
+                <path class="icon-size" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+        </a>
+        <a href="https://gitlab.com/MorugaShestak" class="gitlab icon">
+            <svg class="icon-size tanuki-logo" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="icon-size tanuki-shape tanuki" d="m24.507 9.5-.034-.09L21.082.562a.896.896 0 0 0-1.694.091l-2.29 7.01H7.825L5.535.653a.898.898 0 0 0-1.694-.09L.451 9.411.416 9.5a6.297 6.297 0 0 0 2.09 7.278l.012.01.03.022 5.16 3.867 2.56 1.935 1.554 1.176a1.051 1.051 0 0 0 1.268 0l1.555-1.176 2.56-1.935 5.197-3.89.014-.01A6.297 6.297 0 0 0 24.507 9.5Z" fill="#E24329"></path>
+                <path class="icon-size tanuki-shape right-cheek" d="m24.507 9.5-.034-.09a11.44 11.44 0 0 0-4.56 2.051l-7.447 5.632 4.742 3.584 5.197-3.89.014-.01A6.297 6.297 0 0 0 24.507 9.5Z" fill="#FC6D26"></path>
+                <path class="icon-size tanuki-shape chin" d="m7.707 20.677 2.56 1.935 1.555 1.176a1.051 1.051 0 0 0 1.268 0l1.555-1.176 2.56-1.935-4.743-3.584-4.755 3.584Z" fill="#FCA326"></path>
+                <path class="icon-size tanuki-shape left-cheek" d="M5.01 11.461a11.43 11.43 0 0 0-4.56-2.05L.416 9.5a6.297 6.297 0 0 0 2.09 7.278l.012.01.03.022 5.16 3.867 4.745-3.584-7.444-5.632Z" fill="#FC6D26"></path>
+            </svg>
+        </a>
+        <a class="codewars icon" href="https://www.codewars.com/users/MorugaShestak">
+            <img class="icon-size" alt="codewars" src="https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/63503fd3823762323d600de6_favicon.ico">
+        </a>
+        <a href="https://leetcode.com/MorugaShestak/" class="leetcode icon">
+            <img class="icon-size" width="32px" height="32px" alt="leetcode" src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png">
+        </a>
+        </h2>
+        <h1 class="display-1 nickname mb-8">Moruga</h1>
+        <span><a href="#projects" class="btn btn-lg btn-white scroll">View My Projects</a></span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container pt-7 pb-15">
+        <div class="card">
+          <div class="card-body">
+            <div class="row gx-md-8 gx-xl-10 gy-8">
+              <div class="col-lg-5">
+                <figure class="rounded"><img class="img-fluid" src="./assets/img/me.png" srcset="./assets/img/me.png 2x" alt="Me was here"></figure>
+              </div>
+              <!-- /column -->
+              <div class="col-lg-7">
+                <h2 class="mb-3">Life is suck.</h2>
+                <p class="lead mb-7">I'm Alexander, AIO Dev from Russia <img src="assets/img/flag.png" alt="RussianFlag"></p>
                 <div class="row">
-                    <a class="github icon" href="https://github.com/MorugaShestak">
-                        <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="icon-size">
-                            <path class="icon-size" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg>
-                    </a>
-                    <a href="https://gitlab.com/MorugaShestak" class="gitlab icon">
-                        <svg class="icon-size tanuki-logo" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="icon-size tanuki-shape tanuki" d="m24.507 9.5-.034-.09L21.082.562a.896.896 0 0 0-1.694.091l-2.29 7.01H7.825L5.535.653a.898.898 0 0 0-1.694-.09L.451 9.411.416 9.5a6.297 6.297 0 0 0 2.09 7.278l.012.01.03.022 5.16 3.867 2.56 1.935 1.554 1.176a1.051 1.051 0 0 0 1.268 0l1.555-1.176 2.56-1.935 5.197-3.89.014-.01A6.297 6.297 0 0 0 24.507 9.5Z" fill="#E24329"></path>
-                            <path class="icon-size tanuki-shape right-cheek" d="m24.507 9.5-.034-.09a11.44 11.44 0 0 0-4.56 2.051l-7.447 5.632 4.742 3.584 5.197-3.89.014-.01A6.297 6.297 0 0 0 24.507 9.5Z" fill="#FC6D26"></path>
-                            <path class="icon-size tanuki-shape chin" d="m7.707 20.677 2.56 1.935 1.555 1.176a1.051 1.051 0 0 0 1.268 0l1.555-1.176 2.56-1.935-4.743-3.584-4.755 3.584Z" fill="#FCA326"></path>
-                            <path class="icon-size tanuki-shape left-cheek" d="M5.01 11.461a11.43 11.43 0 0 0-4.56-2.05L.416 9.5a6.297 6.297 0 0 0 2.09 7.278l.012.01.03.022 5.16 3.867 4.745-3.584-7.444-5.632Z" fill="#FC6D26"></path>
-                        </svg>
-                    </a>
-                    <a class="codewars icon" href="https://www.codewars.com/users/MorugaShestak">
-                        <img class="icon-size" alt="codewars" src="https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/63503fd3823762323d600de6_favicon.ico">
-                    </a>
-                    <a href="https://leetcode.com/MorugaShestak/" class="leetcode icon">
-                        <img class="icon-size" width="32px" height="32px" alt="leetcode" src="https://leetcode.com/_next/static/images/logo-ff2b712834cf26bf50a5de58ee27bcef.png">
-                    </a>
+                  <div class="col-lg-6">
+                    <h3 class="h4 mb-3">My f@ckin' TS</h3>
+                    <p>
+                      <span class="dropcap">M</span>
+                        y technology stack is very extensive and includes a variety of technologies and techniques from different IT industries, including:
+                        <ul class="unordered-list bullet-pink">
+                          <li>FrontEnd</li>
+                          <li>BackEnd</li>
+                          <li>Desktop Development</li>
+                          <li>Mobile Development</li>
+                          <li>GameDev</li>
+                          <li>IoT</li>
+                        </ul>
+                    </p>
+                  </div>
+                  <!-- /column -->
+                  <div class="col-lg-6">
+                    <h3 class="h4 mb-3">My Equipment</h3>
+                    <ul class="unordered-list bullet-red">
+                      <li>Laptop ASUS TUF Gaming A17</li>
+                      <li>Laptop MSI Modern 14 C12M-229</li>
+                      <li>Mouse ZET GAMING Immortality PRO Wireless</li>
+                      <li>Mouse Xiaomi Dual Mode Wireless Silent Edition</li>
+                      <li>Keyboard ZET GAMING Blade PRO Optical</li>
+                      <li>Monitor ASUS VG27VH1B</li>
+                    </ul>
+                  </div>
+                  <!-- /column -->
                 </div>
+                <!-- /.row -->
+              </div>
+              <!-- /column -->
             </div>
+            <!-- /.row -->
+          </div>
+          <!--/.card-body -->
         </div>
+        <!--/.card -->
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container pt-7 pb-15">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-xl-7 mx-auto">
+                <h2 class="mb-3 text-center">My Projects</h2>
+                <p class="lead mb-10 text-center px-xxl-12">Not every project has <a class="link-body">repo</a> link included, because I often do freelance</p>
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+            <div class="grid grid-view">
+              <div class="isotope-filter filter mb-8 text-center">
+                <ul>
+                  <li><a class="filter-item active" data-filter="*">All</a></li>
+                  <li><a class="filter-item" data-filter=".frontend">FrontEnd</a></li>
+                  <li><a class="filter-item" data-filter=".backend">BackEnd</a></li>
+                  <li><a class="filter-item" data-filter=".bot">Bot</a></li>
+                  <li><a class="filter-item" data-filter=".algorithm">Algo</a></li>
+                  <li><a class="filter-item" data-filter=".desktop">Desktop Dev</a></li>
+                  <li><a class="filter-item" data-filter=".mobile">Mobile Dev</a></li>
+                  <li><a class="filter-item" data-filter=".game">Game Dev</a></li>
+                  <li><a class="filter-item" data-filter=".iot">IoT</a></li>
+                </ul>
+              </div>
+              <div class="row gx-md-6 gy-6 isotope">
+                <div class="item col-md-6 col-xl-4 frontend">
+                  <h3>LZT Offtopic Reader</h3>
+                  <h5>Simple parser of offtopic threads from <a style="color: rgb(34,142,93)" href="https://zelenka.guru">lolz</a>.<a style="color: rgb(34,142,93)" href="https://zelenka.guru">guru</a></h5>
+                  <h8>using: JS; React</h8>
+                  <a href="https://github.com/MorugaShestak/lzt-offtopic-reader" class="link-body el-link">repo</a>
+                </div>
+                <div class="item col-md-6 col-xl-4 backend">
+                  <h3>Characters Manager for JJK RP</h3>
+                  <h5>
+                    API for characters managment. Special for Jujutsu Kaisen RolePlay
+                  </h5>
+                  <h8>using: Node; Express</h8>
+                  <a href="https://github.com/MorugaShestak/CharacterManager-JJKRP" class="link-body el-link">repo</a>
+                </div>
+                <div class="item col-md-6 col-xl-4 algorithm">
+                  <h3>CodeWars Solutions</h3>
+                  <h5>
+                    Collections of solutions of katas from <a href="codewars.com" class="link-body" style="color: #f95959;">CodeWars</a> <br/>
+                    UI planned in future
+                  </h5>
+                  <h8>using: C#; Go; Java JS; Kotlin; PhP; Python; Ruby; Solidity; SQL; TS </h8>
+                  <a href="https://github.com/MorugaShestak/CodeWarsSolutions" class="link-body el-link">repo</a>
+                </div>
+                <div class="item col-md-6 col-xl-4 backend algorithm">
+                  <h3>LZT AutoMarket</h3>
+                  <h5>Smart automating software for the <a style="color: rgb(34,142,93)" href="https://zelenka.guru">lolz</a>.<a style="color: rgb(34,142,93)" href="https://zelenka.guru">guru</a> market</h5>
+                  <h8>using: Python; Lolz API; Requests</h8>
+                </div>
+                <div class="item col-md-6 col-xl-4 bot backend algorithm">
+                  <h3>DDOS Bot</h3>
+                  <h5>Site & Telegrams Bots DDOS Bot on Telegram API & Flask server</h5>
+                  <h8>using: Python; Flash; PhP; Telegram API; </h8>
+                </div>
+                <div class="item col-md-6 col-xl-4 bot">
+                  <h3>UserBot Spammer</h3>
+                  <h5>User Discord Bot that do spamms w/ threading</h5>
+                  <h8>using: JS; DiscordJS</h8>
+                </div>
+                <div class="item col-md-6 col-xl-4 algorithm">
+                  <h3>getTwitterFollowers</h3>
+                  <h5>Py script that parse all followers of given user</h5>
+                  <h8>using: Python; Selenium; chromedriver</h8>
+                </div>
+                <div class="item col-md-6 col-xl-4 bot algorithm backend">
+                  <h3>Cryptocurrency Converter Bot</h3>
+                  <h5>Cryptocurrency Bot for Telegram.</h5> <h7>The customer refused to introduce an automatic system using Web3, so everything is done manually through the Admin Panel</h7><br>
+                  <h8>using: JS; Telegraf; Sequelize; SQLite</h8>
+                </div>
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.grid -->
+          </div>
+          <!--/.card-body -->
+        </div>
+        <!--/.card -->
+      </div>
+    </section>
+    <section id="stack">
+      <div class="container pt-7 pb-15">
+        <div style="background-color: black;" class="card">
+          <div class="card-body">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="col-lg-6 position-relative order-lg-2">
+                <div class="overlap-grid overlap-grid-2">
+                  <div class="item">
+                    <figure class="rounded shadow"><img src="./assets/img/photos/s1.jpg" srcset="./assets/img/photos/s1@2x.jpg 2x" alt=""></figure>
+                  </div>
+                  <div class="item">
+                    <figure class="rounded shadow"><img src="./assets/img/photos/s2.jpg" srcset="./assets/img/photos/s2@2x.jpg 2x" alt=""></figure>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+              <div class="col-lg-6">
+                <h2 class="mb-3">My Technology Stack</h2>
+                  </div>
+                  <h2>PL:</h2>
+                  <h4>
+                    <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="">
+                    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="">
+                    <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="">
+                  </h4>
+                  <h2>Frameworks, Platforms, Solutions and Libraries: </h2>
+                  <h4>
+                    <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray" alt="">
+                    <img src="https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="">
+                    <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi" alt="">
+                    <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens" alt="">
+                    <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="">
+                    <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="">
+                    <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black" alt="">
+                    <img src="https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Xamarin-3199DC?style=for-the-badge&logo=xamarin&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white alt="">
+                    <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/OpenSea-%232081E2.svg?style=for-the-badge&logo=opensea&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi" alt="">
+                    <img src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="">
+
+                  </h4>
+                  <h2>Cloud Platforms: </h2>
+                  <h4>
+                    <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase" alt="">
+                    <img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="">
+                  </h4>
+                  <h2>Databases: </h2>
+                  <h4>
+                    <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="">
+                  </h4>
+
+                </div>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/.card-body -->
+        </div>
+        <!--/.card -->
+      </div>
+    </section>
+    <div class="swiper-container swiper-bg" data-effect="fade" data-margin="0" data-autoplay="true" data-autoplaytime="7000">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/img/background.png" alt="" /></div>
+        </div>
+        <!--/.swiper-wrapper -->
+      </div>
+      <!-- /.swiper -->
     </div>
+    <!-- /.swiper-container -->
+  </div>
+  <!-- /.content-wrapper -->
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
 </body>
+
 </html>
